@@ -1,0 +1,44 @@
+/*
+# 3 3 3 3 3 3 DARKGRAY
+#333333
+
+# F 5 4 6 7 8 PINK
+#F54678
+
+# 9 A C D 3 2 GREEN
+#9ACD32
+
+# 4 5 4 B 6 6 PURPLE
+#454B66
+
+# D D D D D D LIGHTGRAY
+#DDDDDD
+*/
+*{font-family: 'Poppins', sans-serif;font-weight:300;box-sizing:border-box;}
+h1,h2,h3,h4,h5,h6{font-weight:600;}
+h6{margin:0;}
+html{}
+
+
+/*OTHER STUFF*/
+section{position:relative;padding:10px;margin:10px 0;background:rgba(200,200,200,.3);display:inline-block;width:100%;}
+section.you{background:#333333;color:#DDDDDD;}
+
+.admin{position:absolute;top:0;right:0;height:100%;width:100px;border:1px solid #9ACD32;padding:10px;}
+.admin *{margin:0;}
+
+.profilePic{width:140px;height:140px;background-size:contain;background-repeat:no-repeat;background-position:center;float:left;margin:0 10px 10px 0;}
+
+/*NOTE FORM*/
+.editBtn,.deleteBtn{}
+
+/*MAPS*/
+#myLocationMap{width:200px;height:200px;}
+
+/*LOGIN*/
+body.login{background:#F54678;}
+body.login > div{position:absolute;top:50%;left:50%;margin:-72px 0px 0px -122px;width:244px;}
+body.login form{padding:20px;background:#333333}
+body.login form input{padding:2px;border:none;}
+body.login h2{letter-spacing:11px;text-align:center;margin:0;}
+body.login h6{margin:10px;opacity:.7;font-size:9px;text-align:justify;}
